@@ -1,0 +1,32 @@
+arp
+arp [-v] [-H type] [-i if] -Ds hostname ifname [netmask nm] pub
+Display and modify the Internet-to-Ethernet address translation tables used by the address resolution protocol (ARP)
+---------------------
+arping
+arping is a computer software tool for discovering and probing hosts on a computer network. Arping probes hosts on the examined network link by sending link layer frames using the Address Resolution Protocol request method addressed to a host identified by its MAC address of the network interface
+arping [-AbDfhqUV] [-c count] [-w deadline] [-s source] -I interface destination
+---------------------
+ping
+Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol network. It is available for virtually all operating systems that have networking capability, including most embedded network administration software
+ping [-aAbBdDfhLnOqrRUvV6] [-c count] [-F flowlabel] [-i interval] [-I interface] [-l preload] [-m mark] [-M pmtudisc_option] [-N nodeinfo_option] [-w deadline] [-W timeout] [-p pattern] [-Q tos] [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp option] [hop ...] destination
+---------------------
+ifconif
+ifconfig is a system administration utility in Unix-like operating systems for network interface configuration. The utility is a command-line interface tool and is also used in the system startup scripts of many operating systems.
+ifconfig [-AaC] [interface] [address_family] [address [dest_address]] [parameters]
+---------------------
+netstat
+In computing, netstat is a command-line network utility that displays network connections for Transmission Control Protocol, routing tables, and a number of network interface and network protocol statistics
+netstat [address_family_options] [--tcp|-t] [--udp|-u] [--raw|-w] [--listening|-l] [--all|-a] [--numeric|-n] [--numeric-hosts][--numeric-ports][--numeric-ports] [--symbolic|-N] [--extend|-e[--extend|-e]] [--timers|-o] [--program|-p] [--verbose|-v] [--continuous|-c] [delay]
+---------------------
+route
+In computing, route is a command used to view and manipulate the IP routing table in Unix-like and Microsoft Windows operating systems and also in IBM OS/2 and ReactOS. Manual manipulation of the routing table is characteristic of static routing.
+route [-v] [-A family] add [-net|-host] target [netmask Nm] [gw Gw] [metric N] [mss M] [window W] [irtt I] [reject] [mod] [dyn] [reinstate] [[dev] If]
+---------------------
+tcpdump
+tcpdump is a command-line utility that you can use to capture and inspect network traffic going to and from your system. It is the most commonly used tool among network administrators for troubleshooting network issues and security testing.
+---------------------
+wireshark
+You can start Wireshark from the command line, but it can also be started from most Window managers as well. In this section we will look at starting it from the command line.
+---------------------
+iptables
+iptables is a command line interface used to set up and maintain tables for the Netfilter firewall for IPv4, included in the Linux kernel.
