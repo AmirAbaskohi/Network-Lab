@@ -1,0 +1,27 @@
+Proxy ARP is a technique by which a proxy server on
+a given network answers the Address Resolution Protocol
+(ARP) queries for an IP address that is not on that
+network. The proxy is aware of the location of the
+traffic's destination and offers its own MAC address
+as the (ostensibly final) destination.
+--------------------
+For Communication between different subnets packet has
+to reach router or layer3 devices to process this packet.
+If another networks is directly connected then forwards
+packets on basis of ARP table . If destination is on
+another networks means forwards packet to next hops
+on basis of route entry Configured on network.
+---------------------
+c2:01:a1:c4:00:01
+---------------------
+advantage:
+The main advantage of a proxy ARP is that it can use
+a single router on a network for communication with
+the all the machines on the network.
+
+disadvantage:
+(1)Hosts need larger ARP tables in order to
+handle IP-to-MAC address mappings.
+(2)Security can be undermined. A machine can
+claim to be another in order to intercept packets,
+an act called "spoofing."

@@ -1,0 +1,7 @@
+ARP broadcasts a request packet to all the machines on the LAN
+and asks if any of the machines are using that particular
+IP address. When a machine recognizes the IP address as its own,
+it sends a reply so ARP can update the cache for future reference
+and proceed with the communication.
+
+Q1 and Q2: answer in images

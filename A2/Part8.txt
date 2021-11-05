@@ -1,0 +1,6 @@
+ICMP Ping. Ping uses two ICMP codes: 8 (echo request)
+and 0 (echo reply). When you issue the Ping command
+at the prompt, the Ping program sends out an
+ICMP packet containing the code 8 in the Type field.
+The program times the gap between sending the echo
+request packet and the arrival of the reply.

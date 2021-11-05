@@ -1,0 +1,4 @@
+A Gratuitous ARP is an ARP Response that was not
+prompted by an ARP Request. The Gratuitous ARP is
+sent as a broadcast, as a way for a node to announce
+or update its IP to MAC mapping to the entire network.

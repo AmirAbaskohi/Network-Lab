@@ -1,0 +1,11 @@
+Yes it sends as we can see the deliver message and ICMP messages.
+Ping uses the ICMP or  Internet Control Message Protocol to check if a host is up. 
+ICMP is a protocol in the network layer that communicates error messages
+and other conditions that require attention, as well as routing information.
+These messages are used by the ping program to determine if a remote host
+is accessible. ping sends ICMP echo requests to the target IP address. The
+target host will respond with an ICMP echo reply for each ICMP request
+correctly received. The round trip time for each request/reply pair may be
+reported in the ping console. The fact that no ICMP echo reply is received
+means either that there is no path available to the remote host, or the remote
+host is not alive.

@@ -1,0 +1,4 @@
+If an ARP entry is not used a specific amount of time called the ARP timeout the entry is removed from the caching table
+There is no standard value for this amount of time and it varies from one vendor to another. I will limit my discussion to Cisco devices to clear up the idea.
+The default timeout timer for is 4 hours for Cisco devices, this means that a dynamic ARP entry will remain for 4 hours in the cache table before the router attempt to refresh the entry. If the entry is no longer needed it will be removed.
+6 attempts were made

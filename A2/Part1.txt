@@ -1,0 +1,7 @@
+1- There are two interfaces:
+(I) eth0: eth0 is the first Ethernet interface. (Additional Ethernet interfaces would be named eth1, eth2, etc.) This type of interface is usually a NIC connected to the network by a category 5 cable.
+(II) lo: lo is the loopback interface. This is a special network interface that the system uses to communicate with itself.
+
+2- Clear in the picture
+
+3- 
