@@ -1,0 +1,28 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+12:02:39.959537 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 2, length 8
+12:02:39.959605 12:aa:35:5f:31:e0 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 128.238.61.101 tell 128.238.62.101, length 28
+12:02:39.970521 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype ARP (0x0806), length 60: Reply 128.238.61.101 is-at c2:01:d3:f2:00:01, length 46
+12:02:39.970527 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 2, length 8
+12:02:40.959497 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 3, length 8
+12:02:40.959536 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 3, length 8
+12:02:41.963621 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 4, length 8
+12:02:41.963632 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 4, length 8
+12:02:42.967439 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 5, length 8
+12:02:42.967451 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 5, length 8
+12:02:43.961998 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 6, length 8
+12:02:43.962012 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 6, length 8
+12:02:44.968412 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 7, length 8
+12:02:44.968444 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 7, length 8
+12:02:45.970761 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 8, length 8
+12:02:45.970773 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 8, length 8
+12:02:46.972778 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 9, length 8
+12:02:46.972789 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 9, length 8
+12:02:47.975802 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 10, length 8
+12:02:47.975814 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 10, length 8
+12:02:48.979397 c2:01:d3:f2:00:01 > 12:aa:35:5f:31:e0, ethertype IPv4 (0x0800), length 42: 128.238.61.101 > 128.238.62.101: ICMP echo request, id 94, seq 11, length 8
+12:02:48.979409 12:aa:35:5f:31:e0 > c2:01:d3:f2:00:01, ethertype IPv4 (0x0800), length 42: 128.238.62.101 > 128.238.61.101: ICMP echo reply, id 94, seq 11, length 8
+^C
+22 packets captured
+22 packets received by filter
+0 packets dropped by kernel

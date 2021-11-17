@@ -1,0 +1,14 @@
+PING 128.238.62.101 (128.238.62.101) 0(28) bytes of data.
+8 bytes from 128.238.62.101: icmp_seq=2 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=3 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=4 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=5 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=6 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=7 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=8 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=9 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=10 ttl=63
+8 bytes from 128.238.62.101: icmp_seq=11 ttl=63
+^C
+--- 128.238.62.101 ping statistics ---
+11 packets transmitted, 10 received, 9.09091% packet loss, time 33ms

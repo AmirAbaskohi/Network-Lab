@@ -1,0 +1,649 @@
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:38:31.340663 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 4, length 64
+15:38:31.359969 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 4, length 64
+15:38:32.341213 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 5, length 64
+15:38:32.362503 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 5, length 64
+15:38:32.494555 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:33.341793 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 6, length 64
+15:38:33.358403 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 6, length 64
+15:38:34.343774 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 7, length 64
+15:38:34.348473 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:38:34.359107 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 7, length 64
+15:38:34.489802 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:35.346101 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 8, length 64
+15:38:35.367795 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 8, length 64
+15:38:36.348343 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 9, length 64
+15:38:36.367244 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 9, length 64
+15:38:36.504267 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:38:36.514658 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:36.575413 IP e0.r2.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:38:37.349577 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 10, length 64
+15:38:37.367737 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 10, length 64
+15:38:37.514810 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:38:38.350042 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 11, length 64
+15:38:38.364335 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 11, length 64
+15:38:38.405726 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:39.351808 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 12, length 64
+15:38:39.368542 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 12, length 64
+15:38:40.353229 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 13, length 64
+15:38:40.367879 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 13, length 64
+15:38:40.380941 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:41.354327 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 14, length 64
+15:38:41.373527 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 14, length 64
+15:38:42.336308 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:42.356003 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 15, length 64
+15:38:42.367308 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 15, length 64
+15:38:43.357912 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 16, length 64
+15:38:43.370201 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 16, length 64
+15:38:43.598582 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:38:44.307674 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:44.359926 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 17, length 64
+15:38:44.381656 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 17, length 64
+15:38:45.361005 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 18, length 64
+15:38:45.374173 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 18, length 64
+15:38:46.307200 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:46.361435 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 19, length 64
+15:38:46.376180 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 19, length 64
+15:38:47.329401 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:38:47.362877 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 20, length 64
+15:38:47.380104 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 20, length 64
+15:38:48.241527 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:48.363246 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 21, length 64
+15:38:48.375266 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 21, length 64
+15:38:49.364304 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 22, length 64
+15:38:49.379249 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 22, length 64
+15:38:50.220234 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:50.365055 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 23, length 64
+15:38:50.380607 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 23, length 64
+15:38:51.367125 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 24, length 64
+15:38:51.386165 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 24, length 64
+15:38:52.189210 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:52.368335 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 25, length 64
+15:38:52.387947 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 25, length 64
+15:38:52.798664 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:38:53.369824 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 26, length 64
+15:38:53.382534 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 26, length 64
+15:38:54.152496 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:54.370962 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 27, length 64
+15:38:54.393100 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 27, length 64
+15:38:55.371210 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 28, length 64
+15:38:55.390032 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 28, length 64
+15:38:56.161438 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:56.373439 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 29, length 64
+15:38:56.391301 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 29, length 64
+15:38:57.183806 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:38:57.373615 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 30, length 64
+15:38:57.392963 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 30, length 64
+15:38:57.585277 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:38:57.590393 ARP, Reply h4.netlab is-at c2:02:e4:0c:00:00 (oui Unknown), length 46
+15:38:58.060314 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:38:58.375138 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 31, length 64
+15:38:58.394931 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 31, length 64
+15:38:59.377743 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 32, length 64
+15:38:59.397908 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 32, length 64
+15:39:00.061619 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:00.379667 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 33, length 64
+15:39:00.400416 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 33, length 64
+15:39:01.381634 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 34, length 64
+15:39:01.398989 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 34, length 64
+15:39:01.716629 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:39:02.006919 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:02.087144 IP e0.r2.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:39:02.097764 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:39:02.383545 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 35, length 64
+15:39:02.401534 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 35, length 64
+15:39:03.384504 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 36, length 64
+15:39:03.401913 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 36, length 64
+15:39:03.958860 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:04.386384 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 37, length 64
+15:39:04.399943 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 37, length 64
+15:39:05.388701 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 38, length 64
+15:39:05.403509 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 38, length 64
+15:39:05.968254 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:06.390300 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 39, length 64
+15:39:06.403838 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 39, length 64
+15:39:06.951075 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:39:07.391108 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 40, length 64
+15:39:07.405581 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 40, length 64
+15:39:07.870345 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:08.392214 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 41, length 64
+15:39:08.405437 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 41, length 64
+15:39:09.393320 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 42, length 64
+15:39:09.411618 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 42, length 64
+15:39:09.815402 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:10.394521 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 43, length 64
+15:39:10.413838 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 43, length 64
+15:39:11.396200 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 44, length 64
+15:39:11.410415 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 44, length 64
+15:39:11.781729 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:12.049997 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:39:12.397582 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 45, length 64
+15:39:12.409807 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 45, length 64
+15:39:13.399004 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 46, length 64
+15:39:13.414831 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 46, length 64
+15:39:13.425662 CDPv2, ttl: 180s, Device-ID 'R1', length 328
+15:39:13.683139 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:14.436454 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 47, length 64
+15:39:14.470551 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 47, length 64
+15:39:15.437340 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 48, length 64
+15:39:15.455243 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 48, length 64
+15:39:15.824197 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:16.438169 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 49, length 64
+15:39:16.453575 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 49, length 64
+15:39:16.819393 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:39:17.438904 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 50, length 64
+15:39:17.460564 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 50, length 64
+15:39:17.778998 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:18.440173 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 51, length 64
+15:39:18.459153 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 51, length 64
+15:39:18.510558 CDPv2, ttl: 180s, Device-ID 'R2', length 328
+15:39:19.441299 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 52, length 64
+15:39:19.458600 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 52, length 64
+15:39:19.654236 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:20.443161 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 53, length 64
+15:39:20.455299 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 53, length 64
+15:39:21.445089 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 54, length 64
+15:39:21.465514 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 54, length 64
+15:39:21.505391 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:22.072370 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:39:22.217959 c2:03:e4:1b:00:00 (oui Unknown) > ab:00:00:02:00:00 (oui Unknown), ethertype MOP RC (0x6002), length 77: 
+	0x0000:  3d00 0700 0000 0100 0303 0000 0200 0221  =..............!
+	0x0010:  0003 0006 0000 0000 0000 0400 023c 0005  .............<..
+	0x0020:  0002 d805 0600 0200 0107 0006 c203 e41b  ................
+	0x0030:  0000 6400 0179 9001 0101 9101 02ee 05    ..d..y.........
+15:39:22.225098 c2:03:e4:1b:00:01 (oui Unknown) > ab:00:00:02:00:00 (oui Unknown), ethertype MOP RC (0x6002), length 77: 
+	0x0000:  3d00 0700 0000 0100 0303 0000 0200 0221  =..............!
+	0x0010:  0003 0006 0000 0000 0000 0400 023c 0005  .............<..
+	0x0020:  0002 d805 0600 0200 0107 0006 c203 e41b  ................
+	0x0030:  0001 6400 0179 9001 0101 9101 02ee 05    ..d..y.........
+15:39:22.446290 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 55, length 64
+15:39:22.457575 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 55, length 64
+15:39:23.426599 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:23.447690 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 56, length 64
+15:39:23.468934 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 56, length 64
+15:39:24.449348 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 57, length 64
+15:39:24.468819 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 57, length 64
+15:39:25.451599 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 58, length 64
+15:39:25.456184 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:25.466765 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 58, length 64
+15:39:26.447198 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:39:26.453310 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 59, length 64
+15:39:26.467447 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 59, length 64
+15:39:27.364636 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:27.454135 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 60, length 64
+15:39:27.470289 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 60, length 64
+15:39:27.577567 IP e0.r2.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:39:28.454798 IP h3.netlab > h4.netlab: ICMP echo request, id 93, seq 61, length 64
+15:39:28.466665 IP h4.netlab > h3.netlab: ICMP echo reply, id 93, seq 61, length 64
+15:39:28.561366 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:39:28.571226 ARP, Reply h4.netlab is-at c2:02:e4:0c:00:00 (oui Unknown), length 46
+15:39:29.277709 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:39:29.287905 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, ~ # tcpdump
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+15:40:13.380007 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 4, length 64
+15:40:13.401353 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 4, length 64
+15:40:13.497070 CDPv2, ttl: 180s, Device-ID 'R1', length 328
+15:40:13.758439 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:14.381512 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 5, length 64
+15:40:14.397299 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 5, length 64
+15:40:15.382253 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 6, length 64
+15:40:15.403642 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 6, length 64
+15:40:15.409173 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:15.414063 ARP, Reply h4.netlab is-at c2:02:e4:0c:00:00 (oui Unknown), length 46
+15:40:15.732757 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:16.383245 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 7, length 64
+15:40:16.400636 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 7, length 64
+15:40:16.698553 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:40:17.384470 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 8, length 64
+15:40:17.400668 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 8, length 64
+15:40:17.619227 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:17.829244 CDPv2, ttl: 0s, Device-ID 'R2', unknown field type TLV length 0 too short, length 38
+15:40:18.385352 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 9, length 64
+15:40:19.409700 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 10, length 64
+15:40:19.700326 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:20.437941 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 11, length 64
+15:40:21.457431 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 12, length 64
+15:40:21.560015 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:22.481032 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 13, length 64
+15:40:23.505415 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 14, length 64
+15:40:23.606642 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:24.529198 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 15, length 64
+15:40:25.553325 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 16, length 64
+15:40:25.618701 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:26.403276 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:40:26.553089 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 17, length 64
+15:40:26.569696 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:40:27.572975 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:27.573436 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 18, length 64
+15:40:28.593405 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 19, length 64
+15:40:29.579929 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:29.617698 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 20, length 64
+15:40:30.645540 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 21, length 64
+15:40:31.640022 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:31.665121 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 22, length 64
+15:40:32.689047 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 23, length 64
+15:40:33.647171 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:33.713391 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 24, length 64
+15:40:34.741163 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 25, length 64
+15:40:35.668323 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:35.761489 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 26, length 64
+15:40:36.662773 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:40:36.785411 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 27, length 64
+15:40:37.650653 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:37.813320 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 28, length 64
+15:40:38.837417 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 29, length 64
+15:40:39.660144 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:39.861476 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 30, length 64
+15:40:40.885394 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 31, length 64
+15:40:41.692046 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:41.909037 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 32, length 64
+15:40:42.933015 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 33, length 64
+15:40:43.701852 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:43.957113 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 34, length 64
+15:40:44.977041 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 35, length 64
+15:40:45.745967 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:46.001492 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 36, length 64
+15:40:46.129455 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:46.727414 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:40:47.025641 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 37, length 64
+15:40:47.153502 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:47.649406 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:48.050169 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 38, length 64
+15:40:48.177475 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:49.073145 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 39, length 64
+15:40:49.675541 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:50.097585 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:51.121703 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:51.687510 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:52.145069 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:53.173519 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:53.736322 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:54.193122 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:54.720610 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:40:55.221607 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:55.720546 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:56.245418 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:56.721337 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:40:57.265482 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:57.709608 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:40:58.293532 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:59.313371 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:40:59.665497 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:00.341003 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:01.361894 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:01.681575 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:02.385779 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:03.409423 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:03.760419 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:04.437541 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:05.830997 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:06.457578 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:06.841035 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:41:07.473183 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:07.815086 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:08.497041 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:09.521251 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:09.830170 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:10.545674 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:11.569034 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:11.878712 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:12.593361 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:13.600589 CDPv2, ttl: 180s, Device-ID 'R1', length 328
+15:41:13.617148 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:13.844333 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:14.641039 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:15.665833 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:15.856367 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:16.689317 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:16.847767 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:41:17.713192 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:17.841607 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:18.737354 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:19.760986 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:19.855335 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:20.785490 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:21.809399 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:21.843486 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:22.832981 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:22.867271 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:41:23.743054 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:23.857287 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:24.881236 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:25.631716 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:25.905358 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:26.649088 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:41:26.929744 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:27.641868 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:27.953882 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:28.977387 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:29.614936 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:30.001073 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:31.029022 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:31.650662 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:32.049369 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:33.073471 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:33.659432 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:34.101526 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:35.121317 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:35.648876 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:36.145538 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:36.675899 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:41:37.173113 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:37.673989 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:38.193116 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:39.217280 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:39.651129 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:40.241583 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:41.265716 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:41.706815 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:42.293233 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:43.313087 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:43.695205 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:44.337488 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:45.361508 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:45.701500 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:46.385485 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:46.694361 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:41:47.409556 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:47.722835 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:48.437162 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:48.899794 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:41:49.457178 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:49.682622 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:50.485313 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:51.509296 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:51.733046 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:52.529171 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:53.557014 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:53.742506 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:54.581400 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:55.601224 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:55.793810 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:56.625345 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:56.784005 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:41:57.649674 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:57.777882 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:41:58.673122 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:59.697764 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:41:59.767260 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:00.721678 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:01.750187 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:01.797309 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:02.769543 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:03.797488 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:03.833936 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:04.817397 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:05.845455 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:05.908312 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:06.869030 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:06.909904 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:42:07.893446 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:07.898554 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:08.913338 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:09.937540 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:09.942056 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:10.961469 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:11.959478 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:11.985541 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:13.009493 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:13.631962 CDPv2, ttl: 180s, Device-ID 'R1', length 328
+15:42:13.921977 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:14.033609 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:15.057395 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:15.956408 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:16.085102 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:16.736411 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:42:16.840193 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:42:17.105656 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:17.850421 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:18.129716 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:19.157268 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:19.888422 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:20.181045 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:21.201268 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:21.699851 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:22.225396 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:23.249161 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:23.722291 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:24.277568 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:25.297043 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:25.771143 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:26.321773 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:26.737730 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:42:27.349373 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:27.758635 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:28.373342 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:29.393067 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:29.797883 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:30.417106 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:31.441264 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:31.823786 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:32.465666 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:33.489178 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:33.905942 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:34.513124 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:35.537886 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:35.952277 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:36.565156 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:36.935775 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:42:37.585810 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:37.937622 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:38.613956 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:39.637030 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:39.938923 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:40.657166 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:41.681179 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:41.967320 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:42.415397 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:42:42.709346 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:43.733090 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:43.917560 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:44.757367 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:45.781175 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:45.972933 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:46.805287 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:46.968545 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:42:47.829595 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:47.956560 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:48.849141 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:49.877042 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:49.981947 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:50.901603 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:51.921236 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:51.987353 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:52.945373 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:53.969461 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:54.040659 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:54.997288 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:56.017668 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:56.022588 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:57.025426 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:42:57.045877 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:58.058074 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:42:58.069443 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:42:59.089077 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:00.092062 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:00.113434 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:01.137431 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:02.125623 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:02.161748 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:03.185937 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:04.207464 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:04.209655 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:05.233460 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:06.201184 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:06.261103 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:06.294486 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 24
+15:43:07.139001 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:43:07.281509 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:08.113881 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:08.309490 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:09.329239 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:10.119542 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:10.357185 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:10.826657 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 64
+15:43:11.377504 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:12.083136 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:12.405387 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:13.429495 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:13.708565 CDPv2, ttl: 180s, Device-ID 'R1', length 328
+15:43:14.030646 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:14.449031 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:15.473500 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:16.066820 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:16.497281 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:16.998935 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:43:17.525587 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:18.018333 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:18.545019 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:19.569544 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:19.817867 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:20.593321 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:21.617082 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:21.812157 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:22.645241 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:23.665535 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:23.789600 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:24.689494 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:25.713337 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:25.811593 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:26.737400 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:26.806619 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:43:27.761463 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:27.832875 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:28.789191 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:29.809240 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:29.812019 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:30.837477 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:31.855913 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:31.861141 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:32.881022 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:33.832072 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:33.905447 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:34.929505 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:35.858798 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:35.953539 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:36.839495 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:43:36.977662 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:37.416173 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 64
+15:43:37.799043 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:38.001338 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:39.025222 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:39.779914 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:40.049736 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:41.077220 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:41.792640 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:42.101066 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:43.125136 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:43.836065 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:44.149122 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:45.169505 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:45.845001 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:46.193661 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:46.879358 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:43:47.217301 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:47.860601 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:48.245489 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:49.265087 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:49.818927 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:50.289535 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:51.313624 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:51.874154 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:52.341245 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:53.365125 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:53.891867 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:54.385608 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:55.409179 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:55.939293 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:56.433514 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:56.925717 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:43:57.461676 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:57.898300 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:43:58.375786 c2:01:e3:fd:00:01 (oui Unknown) > ab:00:00:02:00:00 (oui Unknown), ethertype MOP RC (0x6002), length 77: 
+	0x0000:  3d00 0700 0000 0100 0303 0000 0200 0221  =..............!
+	0x0010:  0003 0006 0000 0000 0000 0400 023c 0005  .............<..
+	0x0020:  0002 d805 0600 0200 0107 0006 c201 e3fd  ................
+	0x0030:  0001 6400 0179 9001 0101 9101 02ee 05    ..d..y.........
+15:43:58.481219 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:59.505368 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:43:59.874162 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:00.530068 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:01.553322 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:01.868150 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:02.577910 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:03.601128 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:03.886926 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:04.625565 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:05.614682 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 44
+15:44:05.653283 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:05.907159 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:06.673402 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:06.898212 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:44:07.698457 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:07.896233 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:08.721351 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:09.745340 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:09.964005 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:10.770040 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:11.793490 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:11.983295 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:12.817180 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:13.652239 CDPv2, ttl: 180s, Device-ID 'R1', length 328
+15:44:13.841452 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:13.972289 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:14.865294 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:15.893595 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:15.994883 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:16.913185 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:16.920536 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:44:17.713676 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:17.937697 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:18.961032 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:19.739719 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:19.985494 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:21.009544 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:21.782833 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:22.037209 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:23.057088 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:23.797162 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:24.081710 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:25.105704 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:25.850818 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:26.133430 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:26.840565 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:44:27.153535 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:27.843588 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:28.181119 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:29.205263 ARP, Request who-has h4.netlab tell h3.netlab, length 28
+15:44:29.209361 ARP, Reply h4.netlab is-at c2:01:e3:fd:00:01 (oui Unknown), length 46
+15:44:29.209366 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 254, length 64
+15:44:29.272302 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 254, length 64
+15:44:29.687445 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:30.205524 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 255, length 64
+15:44:30.275087 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 255, length 64
+15:44:30.536381 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 24
+15:44:31.207757 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 256, length 64
+15:44:31.264877 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 256, length 64
+15:44:31.460450 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:31.905175 IP e1.r1.netlab.route > 255.255.255.255.route: RIPv1, Response, length: 64
+15:44:32.209931 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 257, length 64
+15:44:32.293053 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 257, length 64
+15:44:33.210367 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 258, length 64
+15:44:33.262944 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 258, length 64
+15:44:33.273381 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:34.212129 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 259, length 64
+15:44:34.289445 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 259, length 64
+15:44:35.213435 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 260, length 64
+15:44:35.217658 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:35.269145 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 260, length 64
+15:44:36.168710 Loopback, skipCount 0, Reply, receipt number 0, data (40 octets)
+15:44:36.215703 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 261, length 64
+15:44:36.282788 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 261, length 64
+15:44:37.065390 STP 802.1d, Config, Flags [none], bridge-id 8000.c2:01:e3:fd:00:00.8005, length 43
+15:44:37.216311 IP h3.netlab > h4.netlab: ICMP echo request, id 97, seq 262, length 64
+15:44:37.262595 IP h4.netlab > h3.netlab: ICMP echo reply, id 97, seq 262, length 64
+^C
+458 packets captured
+458 packets received by filter
