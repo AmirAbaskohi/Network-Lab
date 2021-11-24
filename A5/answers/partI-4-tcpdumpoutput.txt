@@ -1,0 +1,17 @@
+root@h1:~# tcpdump src host 128.238.61.100
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+11:14:45.142740 IP 128.238.61.100.45058 > 128.238.61.101.echo: UDP, bad length 10000 > 1472
+11:14:45.142862 IP 128.238.61.100 > 128.238.61.101: udp
+11:14:45.142871 IP 128.238.61.100 > 128.238.61.101: udp
+11:14:45.142878 IP 128.238.61.100 > 128.238.61.101: udp
+11:14:45.142884 IP 128.238.61.100 > 128.238.61.101: udp
+11:14:45.142890 IP 128.238.61.100 > 128.238.61.101: udp
+11:14:45.142897 IP 128.238.61.100 > 128.238.61.101: udp
+11:14:50.196934 ARP, Request who-has 128.238.61.101 tell 128.238.61.100, length 28
+11:14:50.197175 ARP, Reply 128.238.61.100 is-at 76:c9:f5:72:6b:23 (oui Unknown), length 28
+^C
+9 packets captured
+10 packets received by filter
+1 packet dropped by kernel
+

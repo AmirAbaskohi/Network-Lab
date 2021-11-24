@@ -1,0 +1,46 @@
+~ # tftp host
+host: unknown host
+tftp> ^Z[3]+  Stopped                    tftp host
+~ # tftp 128.238.61.101
+tftp> get small.dum
+Received 10240 bytes in 0.1 seconds
+tftp> get med.dum
+Received 102400 bytes in 0.0 seconds
+tftp> get large.dum
+Received 1048576 bytes in 0.8 seconds
+tftp> get thin.dum
+Received 1024 bytes in 0.0 seconds
+tftp> ^Z[4]+  Stopped                    tftp 128.238.61.101
+~ # ftp 128.238.61.101
+Connected to 128.238.61.101.
+220 (vsFTPd 3.0.3)
+Name (128.238.61.101:root): netlab
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> get thin.dum
+local: thin.dum remote: thin.dum
+200 PORT command successful. Consider using PASV.
+150 Opening BINARY mode data connection for thin.dum (1024 bytes).
+226 Transfer complete.
+1024 bytes received in 0.00 secs (938.9672 kB/s)
+ftp> get small.dum
+local: small.dum remote: small.dum
+200 PORT command successful. Consider using PASV.
+150 Opening BINARY mode data connection for small.dum (10240 bytes).
+226 Transfer complete.
+10240 bytes received in 0.00 secs (8.5663 MB/s)
+ftp> get med.dum
+local: med.dum remote: med.dum
+200 PORT command successful. Consider using PASV.
+150 Opening BINARY mode data connection for med.dum (102400 bytes).
+226 Transfer complete.
+102400 bytes received in 0.01 secs (13.2577 MB/s)
+ftp> get large.dum
+local: large.dum remote: large.dum
+200 PORT command successful. Consider using PASV.
+150 Opening BINARY mode data connection for large.dum (1048576 bytes).
+226 Transfer complete.
+1048576 bytes rec
