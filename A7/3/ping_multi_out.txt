@@ -1,0 +1,48 @@
+PING 224.0.0.1 (224.0.0.1) 56(84) bytes of data.
+64 bytes from 128.238.66.101: icmp_seq=1 ttl=64 time=0.060 ms
+64 bytes from 128.238.66.104: icmp_seq=1 ttl=64 time=1.50 ms (DUP!)
+64 bytes from 128.238.66.106: icmp_seq=1 ttl=64 time=5.13 ms (DUP!)
+64 bytes from 128.238.66.105: icmp_seq=1 ttl=64 time=5.53 ms (DUP!)
+64 bytes from 128.238.66.103: icmp_seq=1 ttl=64 time=5.55 ms (DUP!)
+64 bytes from 128.238.66.102: icmp_seq=1 ttl=64 time=5.55 ms (DUP!)
+64 bytes from 128.238.66.100: icmp_seq=1 ttl=64 time=5.56 ms (DUP!)
+64 bytes from 128.238.66.101: icmp_seq=2 ttl=64 time=0.068 ms
+64 bytes from 128.238.66.104: icmp_seq=2 ttl=64 time=1.56 ms (DUP!)
+64 bytes from 128.238.66.103: icmp_seq=2 ttl=64 time=3.03 ms (DUP!)
+64 bytes from 128.238.66.102: icmp_seq=2 ttl=64 time=3.04 ms (DUP!)
+64 bytes from 128.238.66.100: icmp_seq=2 ttl=64 time=3.05 ms (DUP!)
+64 bytes from 128.238.66.106: icmp_seq=2 ttl=64 time=6.47 ms (DUP!)
+64 bytes from 128.238.66.105: icmp_seq=2 ttl=64 time=6.56 ms (DUP!)
+64 bytes from 128.238.66.101: icmp_seq=3 ttl=64 time=0.051 ms
+64 bytes from 128.238.66.106: icmp_seq=3 ttl=64 time=1.87 ms (DUP!)
+64 bytes from 128.238.66.105: icmp_seq=3 ttl=64 time=2.03 ms (DUP!)
+64 bytes from 128.238.66.103: icmp_seq=3 ttl=64 time=2.08 ms (DUP!)
+64 bytes from 128.238.66.102: icmp_seq=3 ttl=64 time=2.27 ms (DUP!)
+64 bytes from 128.238.66.100: icmp_seq=3 ttl=64 time=2.65 ms (DUP!)
+64 bytes from 128.238.66.104: icmp_seq=3 ttl=64 time=3.22 ms (DUP!)
+64 bytes from 128.238.66.101: icmp_seq=4 ttl=64 time=0.064 ms
+64 bytes from 128.238.66.106: icmp_seq=4 ttl=64 time=4.41 ms (DUP!)
+64 bytes from 128.238.66.105: icmp_seq=4 ttl=64 time=4.73 ms (DUP!)
+64 bytes from 128.238.66.104: icmp_seq=4 ttl=64 time=6.20 ms (DUP!)
+64 bytes from 128.238.66.103: icmp_seq=4 ttl=64 time=8.21 ms (DUP!)
+64 bytes from 128.238.66.102: icmp_seq=4 ttl=64 time=9.26 ms (DUP!)
+64 bytes from 128.238.66.100: icmp_seq=4 ttl=64 time=9.27 ms (DUP!)
+64 bytes from 128.238.66.101: icmp_seq=5 ttl=64 time=0.069 ms
+64 bytes from 128.238.66.106: icmp_seq=5 ttl=64 time=3.56 ms (DUP!)
+64 bytes from 128.238.66.105: icmp_seq=5 ttl=64 time=3.65 ms (DUP!)
+64 bytes from 128.238.66.104: icmp_seq=5 ttl=64 time=5.65 ms (DUP!)
+64 bytes from 128.238.66.103: icmp_seq=5 ttl=64 time=6.17 ms (DUP!)
+64 bytes from 128.238.66.102: icmp_seq=5 ttl=64 time=6.93 ms (DUP!)
+64 bytes from 128.238.66.100: icmp_seq=5 ttl=64 time=7.06 ms (DUP!)
+64 bytes from 128.238.66.101: icmp_seq=6 ttl=64 time=0.066 ms
+64 bytes from 128.238.66.105: icmp_seq=6 ttl=64 time=4.12 ms (DUP!)
+64 bytes from 128.238.66.104: icmp_seq=6 ttl=64 time=4.29 ms (DUP!)
+64 bytes from 128.238.66.103: icmp_seq=6 ttl=64 time=4.64 ms (DUP!)
+64 bytes from 128.238.66.102: icmp_seq=6 ttl=64 time=4.65 ms (DUP!)
+64 bytes from 128.238.66.100: icmp_seq=6 ttl=64 time=4.66 ms (DUP!)
+64 bytes from 128.238.66.106: icmp_seq=6 ttl=64 time=4.66 ms (DUP!)
+^C
+--- 224.0.0.1 ping statistics ---
+6 packets transmitted, 6 received, +36 duplicates, 0% packet loss, time 17ms
+rtt min/avg/max/mdev = 0.051/4.026/9.273/2.465 ms
+

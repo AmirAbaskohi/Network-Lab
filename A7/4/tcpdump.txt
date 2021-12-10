@@ -1,0 +1,21 @@
+root@h1:~# tcpdump -n -nn -e
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+11:19:23.195974 d2:cd:54:75:30:9c > 4e:d6:e3:7a:a7:1c, ethertype IPv4 (0x0800), length 1066: 128.238.66.100.38662 > 128.238.66.101.7: UDP, length 1024
+11:19:23.203057 4e:d6:e3:7a:a7:1c > d2:cd:54:75:30:9c, ethertype IPv4 (0x0800), length 1066: 128.238.66.101.7 > 128.238.66.100.38662: UDP, length 1024
+11:19:23.206639 d2:cd:54:75:30:9c > 4e:d6:e3:7a:a7:1c, ethertype IPv4 (0x0800), length 590: 128.238.66.100 > 128.238.66.101: ICMP 128.238.66.100 udp port 38662 unreachable, length 556
+11:19:28.376272 d2:cd:54:75:30:9c > 4e:d6:e3:7a:a7:1c, ethertype ARP (0x0806), length 42: Request who-has 128.238.66.101 tell 128.238.66.100, length 28
+11:19:28.376299 4e:d6:e3:7a:a7:1c > d2:cd:54:75:30:9c, ethertype ARP (0x0806), length 42: Reply 128.238.66.101 is-at 4e:d6:e3:7a:a7:1c, length 28
+11:19:28.376886 4e:d6:e3:7a:a7:1c > d2:cd:54:75:30:9c, ethertype ARP (0x0806), length 42: Request who-has 128.238.66.100 tell 128.238.66.101, length 28
+11:19:28.383701 d2:cd:54:75:30:9c > 4e:d6:e3:7a:a7:1c, ethertype ARP (0x0806), length 42: Reply 128.238.66.100 is-at d2:cd:54:75:30:9c, length 28
+11:19:37.279768 d2:cd:54:75:30:9c > 01:00:5e:0b:6f:0a, ethertype IPv4 (0x0800), length 1066: 128.238.66.100.51515 > 230.11.111.10.2000: UDP, length 1024
+11:19:46.112813 d2:cd:54:75:30:9c > 01:00:5e:0b:6f:0f, ethertype IPv4 (0x0800), length 1066: 128.238.66.100.48234 > 232.139.111.15.2000: UDP, length 1024
+11:20:12.512691 d2:cd:54:75:30:9c > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 42: Request who-has 128.238.66.105 tell 128.238.66.100, length 28
+11:20:37.244922 76:fa:53:45:68:12 > 33:33:00:00:00:02, ethertype IPv6 (0x86dd), length 70: fe80::74fa:53ff:fe45:6812 > ff02::2: ICMP6, router solicitation, length 16
+^C
+11 packets captured
+11 packets received by filter
+0 packets dropped by kernel
+root@h1:~# 
+
+

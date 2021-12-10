@@ -1,0 +1,35 @@
+root@h0:~# socket -i -u -n1 128.238.66.101 echo
+root@h0:~# socket -i -u -n1 230.11.111.10 2000
+root@h0:~# socket -i -u -n1 232.139.111.15 2000
+root@h0:~# ping 128.238.66.105
+PING 128.238.66.105 (128.238.66.105) 56(84) bytes of data.
+64 bytes from 128.238.66.105: icmp_seq=1 ttl=64 time=5.43 ms
+64 bytes from 128.238.66.105: icmp_seq=2 ttl=64 time=0.615 ms
+64 bytes from 128.238.66.105: icmp_seq=3 ttl=64 time=0.362 ms
+64 bytes from 128.238.66.105: icmp_seq=4 ttl=64 time=0.247 ms
+64 bytes from 128.238.66.105: icmp_seq=5 ttl=64 time=0.106 ms
+64 bytes from 128.238.66.105: icmp_seq=6 ttl=64 time=0.091 ms
+64 bytes from 128.238.66.105: icmp_seq=7 ttl=64 time=0.278 ms
+64 bytes from 128.238.66.105: icmp_seq=8 ttl=64 time=0.168 ms
+64 bytes from 128.238.66.105: icmp_seq=9 ttl=64 time=0.113 ms
+64 bytes from 128.238.66.105: icmp_seq=10 ttl=64 time=0.125 ms
+64 bytes from 128.238.66.105: icmp_seq=11 ttl=64 time=0.647 ms
+64 bytes from 128.238.66.105: icmp_seq=12 ttl=64 time=0.370 ms
+64 bytes from 128.238.66.105: icmp_seq=13 ttl=64 time=0.330 ms
+64 bytes from 128.238.66.105: icmp_seq=14 ttl=64 time=0.366 ms
+64 bytes from 128.238.66.105: icmp_seq=15 ttl=64 time=0.179 ms
+64 bytes from 128.238.66.105: icmp_seq=16 ttl=64 time=0.422 ms
+64 bytes from 128.238.66.105: icmp_seq=17 ttl=64 time=0.498 ms
+64 bytes from 128.238.66.105: icmp_seq=18 ttl=64 time=0.431 ms
+64 bytes from 128.238.66.105: icmp_seq=19 ttl=64 time=0.872 ms
+64 bytes from 128.238.66.105: icmp_seq=20 ttl=64 time=1.85 ms
+64 bytes from 128.238.66.105: icmp_seq=21 ttl=64 time=0.553 ms
+64 bytes from 128.238.66.105: icmp_seq=22 ttl=64 time=0.635 ms
+64 bytes from 128.238.66.105: icmp_seq=23 ttl=64 time=1.29 ms
+64 bytes from 128.238.66.105: icmp_seq=24 ttl=64 time=0.129 ms
+64 bytes from 128.238.66.105: icmp_seq=25 ttl=64 time=0.510 ms
+^C
+--- 128.238.66.105 ping statistics ---
+25 packets transmitted, 25 received, 0% packet loss, time 465ms
+rtt min/avg/max/mdev = 0.091/0.664/5.432/1.048 ms
+
